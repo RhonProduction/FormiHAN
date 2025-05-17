@@ -1,0 +1,80 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fffcf8;
+    color: #18191a;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.FormiHAN-logo {
+    width: 220px;
+    height: auto;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+}
+
+.header-links a {
+    text-decoration: none;
+    background-color: #6DC4C8;
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+}
+
+.header-links a:hover {
+    background-color: #e0e0e0;
+}
+.text {
+    text-align: right;
+    flex: 1;
+    max-width: 500px; /* Controls text width */
+
+}
+.text h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.text p {
+    font-size: 20px;
+}
+
+.subscribe-button {
+    padding: 20px 40px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000000;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.image-phone {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.10);
+    display: flex;
+    padding: 10px;
+}
+.container {
+    justify-content: space-between;
+    display: flex;
+    padding: 60px 80px;
+    flex-wrap: wrap;
+    gap: 0px;
+}

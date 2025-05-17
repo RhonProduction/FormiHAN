@@ -1,0 +1,65 @@
+body {
+    Display: flex;
+    justify-content: center;
+    align-items: Center;
+    height: 100vh;
+    background-color: rgba(109,196,200,0.6);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("Screenshot 2025-04-06 103601.png");
+    background-size:cover;
+    fill-opacity: 0.5;
+    }
+
+.Sign-Up-Container {
+        background: radial-gradient(rgba 0, 0, 0, 0), (rgba 255, 255, 255, 0.6 );
+        padding: 110px;
+        border-radius: 40px;
+        box-shadow: -20px 20px 20px rgb(109, 144, 166);
+        text-align: center;
+        width: 250px;
+        backdrop-filter: blur(15px);
+        border: solid 1px #ffffff;
+    }
+h1 {
+    text-align: center;
+    position: relative;
+    top:-50px;
+}
+h6 {
+    text-align: center;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+form {
+    text-align: right;
+}
+
+
+h5 {
+    font-size: 10px;
+    text-align: center;
+}
+
+h6 {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    display: block;
+    border-radius: 20px;
+    padding: 10px;
+    -webkit-text-stroke-color: aqua;
+    justify-content: center;
+    margin: 0 auto;
+
+}
