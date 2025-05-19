@@ -24,7 +24,7 @@ body {
 
 .header-links a {
     text-decoration: none;
-    background-color: #6DC4C8;
+    background-color: #6dc4c8;
     color: #ffffff;
     padding: 8px 16px;
     border-radius: 25px;
@@ -77,4 +77,15 @@ body {
     padding: 60px 80px;
     flex-wrap: wrap;
     gap: 0px;
+}
+footer{
+    background-color: #6dc4c8;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+
 }
