@@ -1,0 +1,147 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fffcf8;
+    color: #18191a;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.FormiHAN-logo {
+    width: 220px;
+    height: auto;
+}
+.circle-L img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.circle-L {
+    width: 100px;
+    height: 100px;
+    background: #ffffff;
+    border-radius: 50%;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    stroke: #6dc4c8;
+    overflow: hidden;
+    border: 5px solid #6dc4c8;
+}
+.circle {
+    width: 80px;
+    height: 80px;
+    background: #ffffff;
+    border-radius: 50%;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    stroke: #6dc4c8;
+    overflow: hidden;
+    border: 5px solid #6dc4c8;
+}
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header-links {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.header-links a {
+    text-decoration: none;
+    background-color: #6dc4c8;
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+}
+
+.header-links a:hover {
+    background-color: #e0e0e0;
+}
+.text {
+    text-align: right;
+    flex: 1;
+    max-width: 500px;
+}
+.text {
+    text-align: left;
+    flex: 1;
+    max-width: 500px;
+}
+.text h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.text p {
+    font-size: 20px;
+}
+
+.subscribe-button {
+    padding: 20px 40px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000000;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.image-phone {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.10);
+    display: flex;
+    padding: 10px;
+}
+
+.image-phone2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.10);
+    display: flex;
+    padding: 10px;
+    justify-content: right;
+}
+.container {
+    justify-content: space-between;
+    display: flex;
+    padding: 60px 80px;
+    flex-wrap: wrap;
+    gap: 0px;
+    align-items: center;
+}
+.container2 {
+    justify-content: space-between;
+    display: flex;
+    padding: 60px 80px;
+    flex-wrap: wrap;
+    gap: 0px;
+    align-items: right;
+}
+footer{
+    background-color: #6dc4c8;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+
+}
