@@ -132,7 +132,7 @@ body {
     padding: 60px 80px;
     flex-wrap: wrap;
     gap: 0px;
-    align-items: right;
+    align-items: center;
 }
 footer{
     background-color: #6dc4c8;
